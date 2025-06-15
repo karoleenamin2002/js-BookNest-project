@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="icon" type="image/png" sizes="36x36" href="./imgs/logo3.jpeg">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+
+  background: linear-gradient(90deg, #cfffda, #f0f8ff);
+  color: #2d2d2d;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 80px;
+}
+.head1{margin-right:200px ;font-family: 'Playfair Display', serif;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 140px;
+  width: 140px;
+  margin-right: 350px;
+
+}
+.login{
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login:hover{
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+
+.lefthead{
+  margin-left: 60px;
+}
+  .lefthead a{margin-right: 25px;}
+  .cart-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+
+header h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(to right, #4caf50, #2e7d32);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+
+        
+        .product-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        
+        .product-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        
+        .product-image {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .product-image img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+            border-radius: 5px;
+        }
+        
+        .product-info {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .product-title {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .product-price {
+            font-size: 22px;
+            color: #4CAF50;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        
+        .product-description {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .add-to-cart-btn {
+            padding: 12px 25px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+  <div class="logo-section">
+        
+  <a href="./main.html">  <img src="imgs/logoo.png" alt="Book Nest Logo" class="logo" /></a>
+    <h1 class="head1">BOOK NEST</h1>
+    <div class="lefthead">
+<a href="cart.html" class="cart-icon">
+  <img src="./imgs/cart2.png" width="40px" height="40px">
+  <span class="cart-count">0</span>
+</a>
+    <button class="login">Login</button>
+    </div>
+  </div>
+</header>
+
+    <main id="product-container">
+    </main>
+
+    <script src="main.js"></script>
+    <script src="cart.js"></script>
+
+    <script>
+        displayProductDetails();
+    </script>
+
+</body>
+
+</html>

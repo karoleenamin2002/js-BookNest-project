@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookNest | Login & Register</title>
+  <link rel="stylesheet" href="stylelogin.css" />
+</head>
+<body class="login-body">
+  <div class="container">
+    <div class="form-box">
+      <!-- Login Form -->
+      <form id="loginForm" action="./main.html">
+        <h1>Login</h1>
+        <div class="form-group">
+        
+          <input type="email" id="loginEmail" required placeholder="Email " />
+        </div>
+        <div class="form-group">
+          
+          <input type="password" id="loginPassword" required placeholder="Password "/>
+        </div>
+        <button type="submit" id="submit">Log in</button>
+        <div class="toggle">
+          Don't have an account? <span onclick="toggleForms()">Register</span>
+        </div>
+      </form>
+
+      <!-- Register Form -->
+      <form id="registerForm" class="hidden">
+        <h1>Register</h1>
+        <div class="form-group">
+        
+          <input type="text" id="regName" required placeholder="Your Name "/>
+        </div>
+        <div class="form-group">
+          
+          <input type="email" id="regEmail" required placeholder="Email " />
+        </div>
+        <div class="form-group">
+        
+          <input type="password" id="regPassword" required  placeholder="Password "/>
+        </div>
+        <button type="submit">Register</button>
+        <div class="toggle">
+          Already have an account? <span onclick="toggleForms()">Login</span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function toggleForms() {
+      const loginForm = document.getElementById("loginForm");
+      const registerForm = document.getElementById("registerForm");
+
+      loginForm.classList.toggle("hidden");
+      registerForm.classList.toggle("hidden");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url("https://images.unsplash.com/photo-1512820790803-83ca734da794") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(6px);
+}
+
+.form-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 1s ease-in-out;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-box h1 {
+  margin-bottom: 25px;
+  color: #4caf50;
+  font-size: 28px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+.toggle {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.toggle span {
+  color: #4caf50;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}

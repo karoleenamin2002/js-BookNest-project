@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "The Mythical Man-Month: Essays on Software Engineering",
+    "price": 150,
+    "category": "Programming",
+    "image": "./imgs/The Mythical Man-Month.jpg"
+  },
+  {
+    "id": 2,
+    "title": "You Don’t Know JS",
+    "price": 120,
+    "category": "Programming",
+    "image": "./imgs/You Don’t Know JS.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Structure and Interpretation of Computer Programs (SICP)",
+    "price": 180,
+    "category": "Programming",
+    "image": "./imgs/Structure and Interpretation of Computer Programs (SICP).jpg"
+  },
+  {
+    "id": 4,
+    "title": "Introduction to Algorithms",
+    "price": 150,
+    "category": "Programming",
+    "image": "./imgs/Introduction to Algorithms.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Pragmatic Programmer",
+    "price": 200,
+    "category": "Programming",
+    "image": "./imgs/The Pragmatic Programmer.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Crime and Punishment",
+    "price": 350,
+    "category": "Novel",
+    "image": "./imgs/Crime and Punishment.jpg"
+  },
+  {
+    "id": 7,
+    "title": "One Hundred Years of Solitude",
+    "price": 250,
+    "category": "Novel",
+    "image": "./imgs/One Hundred Years of Solitude.jpg"
+  },
+  {
+    "id": 8,
+    "title": "1984 Novel",
+    "price": 420,
+    "category": "Novel",
+    "image": "./imgs/1984 Novel.png"
+  },
+  {
+    "id": 9,
+    "title": "The Great Gatsby",
+    "price": 380,
+    "category": "Novel",
+    "image": "./imgs/The Great Gatsby.jpg"
+  },
+  {
+    "id": 10,
+    "title": "To Kill a Mockingbird",
+    "price": 450,
+    "category": "Novel",
+    "image": "./imgs/To Kill a Mockingbird.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The Order of Time",
+    "price": 270,
+    "category": "Science",
+    "image": "./imgs/The Order of Time.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Gene: An Intimate History",
+    "price": 580,
+    "category": "Science",
+    "image": "./imgs/The Gene_An Intimate History.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Cosmos",
+    "price": 350,
+    "category": "Science",
+    "image": "./imgs/Cosmos.jpg"
+  },
+  {
+    "id": 14,
+    "title": "The Selfish Gene",
+    "price": 180,
+    "category": "Science",
+    "image": "./imgs/The Selfish Gene.jpg"
+  },
+  {
+    "id": 15,
+    "title": "A Brief History of Time",
+    "price": 280,
+    "category": "Science",
+    "image": "./imgs/A Brief History of Time.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+    "price": 150,
+    "category": "Programming",
+    "image": "./imgs/Clean Code_A Handbook of Agile Software Craftsmanship.jpg"
+  }
+]
